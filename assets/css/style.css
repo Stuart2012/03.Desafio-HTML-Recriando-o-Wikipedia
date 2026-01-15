@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+
+.site-header {
+  border-bottom: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+}
+.site-logo img {
+  max-height: 60px;
+  display: block;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr 200px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar-left,
+.sidebar-right {
+  font-size: 14px;
+}
+
+.sidebar-left ul,
+.sidebar-right ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-left a,
+.sidebar-right a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.content figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content figcaption {
+  font-size: 14px;
+  color: #54595d;
+  margin-top: 5px;
+}
+
+/* Layout principal */
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  gap: 24px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Coluna esquerda – Conteúdos */
+.sidebar-left {
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-right: 1px solid #a2a9b1;
+  border-radius: 4px;
+}
+
+/* Coluna central – Artigo */
+.content {
+  padding: 0 16px;
+}
+
+/* Coluna direita – Âncoras */
+.sidebar-right {
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-left: 1px solid #a2a9b1;
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #a2a9b1;
+  font-size: 14px;
+  color: #202122;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer p {
+  margin: 6px 0;
+}
